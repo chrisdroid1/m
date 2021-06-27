@@ -48,12 +48,12 @@ async def lycia(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "Lovely")
-        result = result.replace("Eliza", "Lovely")
-        result = result.replace("Hi~", "Hello Friend I Am @LOVELY_OBOT")
-        result = result.replace("My dear great botmaster, Lovelybot Team.", "Made By @TUSHAR204")
-        result = result.replace("Have the control right.", "My Father Is @TUSHAR204")
-        result = result.replace("I was created by Lovelybot Team.", "I was created by @LOVELYDEVS")
+        result = result.replace("Aco", "Kaela")
+        result = result.replace("Eliza", "Kaela")
+        result = result.replace("Hi~", "Hello Friend I Am @Kaelagrpbot")
+        result = result.replace("My dear great botmaster, Kaela Team.", "Made By @Mrkahno")
+        result = result.replace("Have the control right.", "My Father Is @Mrkahno")
+        result = result.replace("I was created by kaela Team.", "I was created by @kaelasupport")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         red = result
@@ -111,12 +111,12 @@ async def lycia(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "Lovely")
-        result = result.replace("Eliza", "@LOVELYR_OBOT")
-        result = result.replace("Hi~", "Hello Friend I Am @LOVELYR_OBOT")
-        result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @TUSHAR204")
-        result = result.replace("Have the control right.", "My Father Is @TUSHAR204")
-        result = result.replace("I was created by Lyciabot Team.", "I was created by @LOVELYDEVS Team.")
+        result = result.replace("Aco", "Kaela")
+        result = result.replace("Eliza", "@Kaelasupport")
+        result = result.replace("Hi~", "Hello Friend I Am @kaelagrpbot")
+        result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @Mrkahno")
+        result = result.replace("Have the control right.", "My Father Is @Mrkahno")
+        result = result.replace("I was created by Lyciabot Team.", "I was created by @Kaelasupport Team.")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         red = result
@@ -184,12 +184,12 @@ async def redaura(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", "Lovely")
-    result = result.replace("Eliza", "@LOVELYR_OBOT")
-    result = result.replace("Hi~", "Hello Friend I Am @LOVELYR_OBOT")
-    result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @TUSHAR204")
-    result = result.replace("Have the control right.", "My Father Is @TUSHAR204")
-    result = result.replace("I was created by Lyciabot Team.", "I was created by @LOVELYDEVS Team.")
+    result = result.replace("Aco", "Kaela")
+    result = result.replace("Eliza", "@Kaelagrpbot")
+    result = result.replace("Hi~", "Hello Friend I Am @kaelagrpbot")
+    result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @Mrkahno")
+    result = result.replace("Have the control right.", "My Father Is @Mrkahno")
+    result = result.replace("I was created by Lyciabot Team.", "I was created by @kaelasupport Team.")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     red = result
@@ -203,7 +203,7 @@ async def redaura(client, message):
 
 
 @LYCIA.on_message(
-    filters.regex("Lovely|lovely|LOVELY")
+    filters.regex("Kaela|Kaela|KAELA")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -263,12 +263,12 @@ async def redaura(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", "Lovely")
-    result = result.replace("Eliza", "@LOVELY_OBOT")
-    result = result.replace("Hi~", "Hello Friend I Am @LOVELY_OBOT")
-    result = result.replace("My dear great botmaster, Daisybot Team.", "Made By @TUSHAR204")
-    result = result.replace("Have the control right.", "My Father Is @TUSHAR204")
-    result = result.replace("I was created by Lyciabot Team.", "I was created by @LOVELYDEVS Team.")
+    result = result.replace("Aco", "Kaela")
+    result = result.replace("Eliza", "@Kaelagrpbot")
+    result = result.replace("Hi~", "Hello Friend I Am @kaelagrpbot")
+    result = result.replace("My dear great botmaster, Kaela Team.", "Made By @MrKahno")
+    result = result.replace("Have the control right.", "My Father Is @Mrkahno")
+    result = result.replace("I was created by Lyciabot Team.", "I was created by @Mrkahno Team.")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     red = result
