@@ -1,36 +1,36 @@
 # VC
 
 __help__ = """
-1) Make bot admin (Group and in channel if use cplay)
-2) Start a voice chat
-3) Try /play [song name] for the first time by an admin
-*) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
+❍ Make bot admin (Group and in channel if use cplay)
+❍ Start a voice chat
+❍ Try /play [song name] for the first time by an admin
+❍ If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
 **For Channel Music Play**
-1) Make me admin of your channel 
-2) Send /userbotjoinchannel in linked group
-3) Now send commands in linked group
+❍ Make me admin of your channel 
+❍ Send /userbotjoinchannel in linked group
+❍ Now send commands in linked group
 group.
 
-=>> Song Playing 🎧
-- /play: Play the requestd song
-- /play [yt url] : Play the given yt url
-- /play [reply yo audio]: Play replied audio
-- /dplay: Play song via deezer
-- /splay: Play song via jio saavn
-- /ytplay: Directly play song via Youtube Music
-=>> Playback ⏯
-- /player: Open Settings menu of player
-- /skip: Skips the current track
-- /pause: Pause track
-- /resume: Resumes the paused track
-- /end: Stops media playback
-- /current: Shows the current Playing track
-- /playlist: Shows playlist
+❍ ❍ Song Playing 🎧
+❍ /play: Play the requestd song
+❍ /play [yt url] : Play the given yt url
+❍ /play [reply yo audio]: Play replied audio
+❍ /dplay: Play song via deezer
+❍ /splay: Play song via jio saavn
+❍ /ytplay: Directly play song via Youtube Music
+❍ ❍ Playback ⏯
+❍ /player: Open Settings menu of player
+❍ /skip: Skips the current track
+❍ /pause: Pause track
+❍ /resume: Resumes the paused track
+❍ /end: Stops media playback
+❍ /current: Shows the current Playing track
+❍ /playlist: Shows playlist
 Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
 
         
 
-=>> Channel Music Play 🛠
+ Channel Music Play 🛠
 ⚪️ For linked group admins only:
 - /cplay [song name] - play song you requested
 - /cdplay [song name] - play song you requested via deezer
@@ -53,7 +53,7 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 
 
 
-=>> More tools 🧑‍🔧
+More tools 🧑‍🔧
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @Suchabusyguy Userbot to your chat
