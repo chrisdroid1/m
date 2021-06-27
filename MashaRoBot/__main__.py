@@ -74,34 +74,55 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello My name is` *Kaela*
-`I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.
-**Powered By** @kaelasupport.` 
+Hello I'm 𝕷𝖔𝖛𝖊𝖑𝖞 𝕽𝖔𝖇𝖔𝖙 ,
+༒︎ I ᴀᴍ ᴍᴜʟᴛɪ ᴛᴀʟᴇɴᴛᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴏsᴍ ғᴇᴀᴛᴜʀᴇs[.](https://telegra.ph/file/787339b6e43109c75a63c.mp4)
+
+➪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
+
+➪ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴍᴀsᴛᴇʀ](t.me/TUSHAR204) ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴀɴᴅ [ᴀᴘᴘᴇᴀʟ](https://t.me/LOVELYAPPEAL) ʜᴇʀᴇ.
+
+➪ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ʜᴇʟᴘ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴇᴀᴛᴜʀᴇs.
+
+➪ Pᴏᴡᴇʀᴇᴅ ʙʏ [𝕷𝖔𝖇𝖊 𝕱𝖆𝖎𝖑𝖚𝖗𝖊](t.me/shayri_of_loves)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD Kaela TO YOUR GROUP ➕️", url="t.me/Emcee_Bot?startgroup=true"),
+            text="➕️ 𝐀𝐝𝐝 𝐋𝐨𝐯𝐞𝐥𝐲 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕️", url="t.me/LOVELYR_OBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🥳 ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="😎 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="ℹ️𝐀𝐛𝐨𝐮𝐭", callback_data="masha_"),
+        InlineKeyboardButton(text="🆘𝐇𝐞𝐥𝐩", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", url="t.me/kaelasupport"),
+            text="✨𝐋𝐨𝐯𝐞𝐥𝐲 𝐋𝐨𝐠𝐬✨", url="t.me/LOV3LYLOGS"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/kaelasupport"),
+            text="👥𝐒𝐮𝐩𝐩𝐨𝐫𝐭👥", url="https://t.me/LOVELYAPPEAL"),
+    ],
     [  
-        InlineKeyboardButton(text="My sis", url="t.me/Akirogrpbot"
+        InlineKeyboardButton(text="😈𝐋𝐨𝐯𝐞𝐥𝐲 𝐃𝐞𝐯𝐬😈", url="https://t.me/LOVELYDEVS"
     ),
     ], 
+    [
+        InlineKeyboardButton(text="❤️𝐋𝐨𝐯𝐞 𝐬𝐭𝐚𝐭𝐮𝐬❤️", url="https://t.me/shayri_of_loves"
+    ), 
+    ],
+    [   
+        InlineKeyboardButton(text="🎧𝐕𝐜 𝐏𝐥𝐚𝐲𝐞𝐫🎧", url="https://telegra.ph/𝔏𝔬𝔳𝔢𝔩𝔶-06-15"
+    ),
+    ],
 ]
 
 
+
 HELP_STRINGS = """
-*『HELP BUTTONS HERE』*"""
+༆*LOVELY comes with many special features in it*༆
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF LOVELY*꧂
+𖣘 *All commands can either be used with* `/` *or* `!`.
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @LOVELYSUPPORTS* [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg)
+"""
 
 
 DONATE_STRING = """No need.. I'm rich"""
@@ -349,16 +370,16 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Kaela*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *LOVELY*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://t.me/kaelasupport).
-                 If you have any question about kaela, let us know at @kaelagrpsupport.""",
+                 \n_Emcee's licensed under the GNU General Public License v3.0_
+                 Here is the [💾Repository](https://t.me/LOVELYSUPPORTS).
+                 If you have any question about Lovely, let us know at @LOVELYSUPPORTS.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -384,8 +405,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Kaela*
-                 \nHere is the [Source Code](https://t.me/kaelasupport) .""",
+            text=""" Hi..🤗 I'm *lovely*
+                 \nHere is the [Source Code](https://t.me/LOVELYSUPPORTS) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -632,7 +653,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID !=  and DONATION_LINK:
+        if OWNER_ID != 1677365574 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -680,7 +701,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Lovely is back with explosive features.✨")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
