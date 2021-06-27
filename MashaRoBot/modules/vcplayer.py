@@ -11,8 +11,7 @@ __help__ = """
 2) Send /userbotjoinchannel in linked group
 3) Now send commands in linked group
 group.
-""",
-f"""
+
 =>> Song Playing 🎧
 - /play: Play the requestd song
 - /play [yt url] : Play the given yt url
@@ -29,9 +28,9 @@ f"""
 - /current: Shows the current Playing track
 - /playlist: Shows playlist
 Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
-""",
+
         
-f"""
+
 =>> Channel Music Play 🛠
 ⚪️ For linked group admins only:
 - /cplay [song name] - play song you requested
@@ -52,9 +51,9 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 3) Add bot as Channel admin with full perms
 4) Add @Suchabusyguy to the channel as an admin.
 5) Simply send commands in your group.
-""",
 
-f"""
+
+
 =>> More tools 🧑‍🔧
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
