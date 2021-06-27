@@ -1,6 +1,6 @@
 # VC
 
-__mod_name__ = "vcplayer"
+__mod_name__ = "vcmusicplayer"
 
 
 __help__ = """
