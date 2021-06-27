@@ -12,15 +12,14 @@ __help__ = """
 3) Now send commands in linked group
 group.
 """,
-**Commands**
-**=>> Song Playing 🎧**
+=>> Song Playing 🎧
 - /play: Play the requestd song
 - /play [yt url] : Play the given yt url
 - /play [reply yo audio]: Play replied audio
 - /dplay: Play song via deezer
 - /splay: Play song via jio saavn
 - /ytplay: Directly play song via Youtube Music
-**=>> Playback ⏯**
+=>> Playback ⏯
 - /player: Open Settings menu of player
 - /skip: Skips the current track
 - /pause: Pause track
@@ -28,11 +27,11 @@ group.
 - /end: Stops media playback
 - /current: Shows the current Playing track
 - /playlist: Shows playlist
-*Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
+Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
 """,
         
 f"""
-**=>> Channel Music Play 🛠**
+=>> Channel Music Play 🛠
 ⚪️ For linked group admins only:
 - /cplay [song name] - play song you requested
 - /cdplay [song name] - play song you requested via deezer
@@ -55,12 +54,12 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 """,
 
 f"""
-**=>> More tools 🧑‍🔧**
+=>> More tools 🧑‍🔧
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
-**=>> Commands for Sudo Users ⚔️**
+=>> Commands for Sudo Users ⚔️
  - /userbotleaveall - remove assistant from all chats
  - /gcast <reply to message> - globally brodcast replied message to all chats
-*Sudo Users can execute any command in any groups
+Sudo Users can execute any command in any groups
 """
