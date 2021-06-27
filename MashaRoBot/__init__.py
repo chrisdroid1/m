@@ -1,7 +1,7 @@
 import logging
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 import os
-from pymongo import MongoClient
+from MashaRoBot.helper_extra import mongo
 import sys
 import time
 import spamwatch
