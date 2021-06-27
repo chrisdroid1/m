@@ -1,8 +1,5 @@
 # VC
 
-__mod_name__ = "vcmusicplayer"
-
-
 __help__ = """
 1) Make bot admin (Group and in channel if use cplay)
 2) Start a voice chat
@@ -65,3 +62,7 @@ channel is also can be used instead of c ( /cplay = /channelplay )
  - /gcast <reply to message> - globally brodcast replied message to all chats
 Sudo Users can execute any command in any groups
 """
+
+
+
+__mod_name__ = "vcmusicplayer"
