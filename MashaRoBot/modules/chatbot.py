@@ -160,6 +160,15 @@ dispatcher.add_handler(CHATBOT_HANDLER)
 dispatcher.add_handler(LIST_CB_CHATS_HANDLER)
 
 __mod_name__ = "Cʜᴀᴛʙᴏᴛ💬"
+
+__help__ = """
+Chatbot utilizes the Upgraded API and allows Kaela to talk and provides a more interactive group chat experience.
+*Commands:* 
+*Admins only:*
+ ✪ `/addchat`*:* Enables Chatbot mode in the chat.
+ ✪ `/rmchat`*:* Disables Chatbot mode in the chat.
+Reports bugs at @{SUPPORT_CHAT}
+"""
 __command_list__ = ["addchat", "rmchat", "listaichats"]
 __handlers__ = [
     ADD_CHAT_HANDLER,
