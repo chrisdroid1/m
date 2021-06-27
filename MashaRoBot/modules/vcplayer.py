@@ -1,4 +1,6 @@
-__mod_name__ = "VCPLAYER"
+# VC
+
+__mod_name__ = "vcplayer"
 
 
 __help__ = """
