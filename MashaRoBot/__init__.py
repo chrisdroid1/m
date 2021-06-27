@@ -1,7 +1,5 @@
 import logging
-from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 import os
-from MashaRoBot.helper_extra import mongo
 import sys
 import time
 import spamwatch
@@ -198,8 +196,6 @@ updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("masha", API_ID, API_HASH)
 pbot = Client("mashapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
-db = mongo_client.MashaRoBot
-mongo_client = MongoClient(MONGO_DB_URI)
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)
