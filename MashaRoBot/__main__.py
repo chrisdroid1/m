@@ -46,7 +46,7 @@ from MashaRoBot import (
     TOKEN,
     URL,
     WEBHOOK,
-    WHITELIST_CHATS,
+    BL_CHATS,
     StartTime,
     dispatcher,
     pbot,
