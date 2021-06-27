@@ -12,6 +12,7 @@ __help__ = """
 3) Now send commands in linked group
 group.
 """,
+f"""
 =>> Song Playing 🎧
 - /play: Play the requestd song
 - /play [yt url] : Play the given yt url
