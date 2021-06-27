@@ -1,4 +1,4 @@
-from MashaRoBot.helpers_extra.mongo import client as db_x
+from MashaRoBot.helper_extra.mongo import client as db_x
 
 lydia = db_x["CAHTBOT"]
 
