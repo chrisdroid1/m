@@ -111,7 +111,7 @@ async def ws(event):
 
 
 __help__ = """
-Emcee can protect your group from NSFW senders
+Kaela can protect your group from NSFW senders
  ❍ /addnsfw*:* Adds The Group to nsfw Watch List
  ❍ /rmnsfw*:* Removes The Group From nsfw Watch List
 """
