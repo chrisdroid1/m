@@ -58,3 +58,4 @@ pytz
 envparse
 motor
 pyromod
+odmantic
