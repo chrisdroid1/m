@@ -74,28 +74,27 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello My name is` *Emcee*
+`Hello My name is` *Kaela*
 `I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.
-**Powered By** @DaisyXNews.` 
+**Powered By** @kaelasupport.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD Emcee TO YOUR GROUP ➕️", url="t.me/Emcee_Bot?startgroup=true"),
+            text="➕️ ADD Kaela TO YOUR GROUP ➕️", url="t.me/Emcee_Bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="🥳 ABOUT", callback_data="masha_"),
+        InlineKeyboardButton(text="😎 COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", url="t.me/DaisyXNews"),
+            text="💾 SOURCE", url="t.me/kaelasupport"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/Emceesupport"),
-    ],
+            text="👥 SUPPORT", url="https://t.me/kaelasupport"
     [  
-        InlineKeyboardButton(text="🇮🇳 EMCEE DEVS", url="t.me/EmceeDevs"
+        InlineKeyboardButton(text="My sis", url="t.me/Akirogrpbot"
     ),
     ], 
 ]
@@ -350,7 +349,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *EMCEE*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Kaela*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -358,8 +357,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://t.me/DaisyXNews).
-                 If you have any question about Emcee, let us know at @Emceesupport.""",
+                 Here is the [💾Repository](https://t.me/kaelasupport).
+                 If you have any question about kaela, let us know at @kaelagrpsupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -385,8 +384,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Emcee*
-                 \nHere is the [Source Code](https://t.me/DaisyXNews) .""",
+            text=""" Hi..🤗 I'm *Kaela*
+                 \nHere is the [Source Code](https://t.me/kaelasupport) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -633,7 +632,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1037581197 and DONATION_LINK:
+        if OWNER_ID !=  and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
