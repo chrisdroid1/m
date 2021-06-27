@@ -356,7 +356,7 @@ async def inuka(client, message):
 
 __help__ = """
 **Cʜᴀᴛʙᴏᴛ**
-𝐓𝐈𝐓𝐀𝐍 𝟐.𝟎 αι 3.0 cαη ∂єтє¢т & яєρℓу υρтσ 200 ℓαηgυαgєѕ
+KAELA cαη ∂єтє¢т & яєρℓу υρтσ 200 ℓαηgυαgєѕ
  
  ✮ /chatbot `[ON|OFF]` *:* єηαвℓєѕ|∂ιѕαвℓєѕ ᴀɪ cнαт мσ∂є (EXCLUSIVE)
 
