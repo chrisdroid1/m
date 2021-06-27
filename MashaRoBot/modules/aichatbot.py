@@ -11,7 +11,7 @@ url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 
 translator = google_translator()
 
-BOT_ID = 1777728008
+BOT_ID = 1886379359
 
 def extract_emojis(s):
     return "".join(c for c in s if c in emoji.UNICODE_EMOJI)
