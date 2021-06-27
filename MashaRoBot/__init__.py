@@ -1,6 +1,7 @@
 import logging
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 import os
+from pymongo import MongoClient
 import sys
 import time
 import spamwatch
