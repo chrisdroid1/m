@@ -58,7 +58,7 @@ f"""
 =>> More tools 🧑‍🔧
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-- /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
+- /userbotjoin: Invite @Suchabusyguy Userbot to your chat
 =>> Commands for Sudo Users ⚔️
  - /userbotleaveall - remove assistant from all chats
  - /gcast <reply to message> - globally brodcast replied message to all chats
