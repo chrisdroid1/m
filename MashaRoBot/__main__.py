@@ -89,7 +89,7 @@ Hello I'm Kaela ,
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐝𝐝 𝐋𝐨𝐯𝐞𝐥𝐲 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕️", url="t.me/LOVELYR_OBOT?startgroup=true"),
+            text="➕️ 𝐀𝐝𝐝 𝐋𝐨𝐯𝐞𝐥𝐲 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕️", url="t.me/kaelagrpbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️𝐀𝐛𝐨𝐮𝐭", callback_data="masha_"),
