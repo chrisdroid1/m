@@ -11,9 +11,12 @@ from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
 
+AFK_VID = "https://telegra.ph/file/c1151e4efbb0baf8eff51.mp4"
+USER_BACK = "https://telegra.ph/file/7a05f54e91f895aac0487.mp4"
+AFK_REASON_VID = "CgACAgQAAx0CTyCW5QACED5gz3H8r7-Y70BKE3gU4OrIZbivHAACTgIAAoFDlFIodCCDHpcI3x8E"
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
-
+chosen_vid = random.choice(AFK_REASON_VID)
 
 @run_async
 def afk(update: Update, context: CallbackContext):
@@ -38,7 +41,13 @@ def afk(update: Update, context: CallbackContext):
     sql.set_afk(update.effective_user.id, reason)
     fname = update.effective_user.first_name
     try:
-        update.effective_message.reply_text("{} is now away!{}".format(fname, notice))
+        afk = [
+                "{} is now AFK!",
+                "bye bye, {}!",
+                "{} is now away!",
+        ]
+        chosen_msg = random.choice(afk)
+        update.effective_message.reply_animation(AFK_VID, caption=chosen_msg.format(fname))
     except BadRequest:
         pass
 
@@ -58,17 +67,15 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} is here!",
                 "{} is back!",
-                "{} is now in the chat!",
-                "{} is awake!",
-                "{} is back online!",
+                "welcome back {}!",
+                "Yo, {} is here!",
+                "{} is online!",
                 "{} is finally here!",
                 "Welcome back! {}",
-                "Where is {}?\nIn the chat!",
             ]
             chosen_option = random.choice(options)
-            update.effective_message.reply_text(chosen_option.format(firstname))
+            update.effective_message.reply_animation(USER_BACK, caption=chosen_option.format(firstname))
         except:
             return
 
@@ -129,13 +136,13 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if int(userc_id) == int(user_id):
             return
         if not user.reason:
-            res = "{} is afk".format(fst_name)
-            update.effective_message.reply_text(res)
+            mess = "{} is afk".format(fst_name)
+            update.effective_message.reply_animation(AFK_REASON_VID, caption=mess)
         else:
             res = "{} is afk.\nReason: <code>{}</code>".format(
                 html.escape(fst_name), html.escape(user.reason)
             )
-            update.effective_message.reply_text(res, parse_mode="html")
+            update.effective_message.reply_animation(AFK_REASON_VID, caption=res, parse_mode="html")
 
 
 
@@ -151,7 +158,7 @@ dispatcher.add_handler(AFK_REGEX_HANDLER, AFK_GROUP)
 dispatcher.add_handler(NO_AFK_HANDLER, AFK_GROUP)
 dispatcher.add_handler(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)
 
-__mod_name__ = "AFK"
+__mod_name__ = "AFK🏃"
 __command_list__ = ["afk"]
 __handlers__ = [
     (AFK_HANDLER, AFK_GROUP),
