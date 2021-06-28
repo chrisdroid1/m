@@ -96,9 +96,9 @@ buttons = [
     ],
     [  
         InlineKeyboardButton(
-            text="🎧𝐕𝐜 𝐏𝐥𝐚𝐲𝐞𝐫🎧", url="https://telegra.ph/Chris-06-27"),
+            text="🎧𝐕𝐜 𝐏𝐥𝐚𝐲𝐞𝐫🎧", url="https://telegra.ph/Chris-06-28"),
         InlineKeyboardButton(
-            text="My Friend group", url="https://t.me/FunTanttr"
+            text="Fun group", url="https://t.me/FunTanttr"
         ),
     ],
 ]
