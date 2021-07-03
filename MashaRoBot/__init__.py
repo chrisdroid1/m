@@ -77,6 +77,7 @@ if ENV:
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", None)
     VIRUS_API_KEY = os.environ.get("VIRUS_API_KEY", None)
     BOT_ID = int(os.environ.get("BOT_ID", None))
+    REM_BG_API_KEY = int(os.environ.get("REM_BG_API_KEY", None))
     LOAD = os.environ.get("LOAD", "").split()
     NO_LOAD = os.environ.get("NO_LOAD", "translation").split()
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
@@ -151,6 +152,7 @@ else:
     OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
     VIRUS_API_KEY = Config.VIRUS_API_KEY
     BOT_ID = Config.BOT_ID
+    REM_BG_API_KEY = Config.REM_BG_API_KEY
     DONATION_LINK = Config.DONATION_LINK
     LOAD = Config.LOAD
     NO_LOAD = Config.NO_LOAD
