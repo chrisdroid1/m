@@ -1,4 +1,4 @@
-yaml
+PyYAML>5.0
 future
 emoji
 lxml
