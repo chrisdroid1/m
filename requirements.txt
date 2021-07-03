@@ -61,7 +61,7 @@ motor
 pyromod
 odmantic
 redis
-# img editor
+#imgeditor
 glitch_this
 NumPy
 opencv-python-headless
