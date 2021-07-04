@@ -1,5 +1,5 @@
 PyYAML>5.0
-gogoanimeapi
+gogoanime-api
 aiogram
 loguru
 future
