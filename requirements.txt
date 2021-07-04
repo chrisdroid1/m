@@ -1,4 +1,5 @@
 PyYAML>5.0
+aiogram
 loguru
 future
 emoji
