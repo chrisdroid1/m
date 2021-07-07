@@ -4,7 +4,7 @@ aiogram
 loguru
 future
 emoji
-lxml
+lxml==4.5.2
 wget
 gtts
 beautifulsoup==4.9.1
