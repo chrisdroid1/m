@@ -69,3 +69,4 @@ redis
 glitch_this
 NumPy
 opencv-python-headless
+pymongo[srv]
