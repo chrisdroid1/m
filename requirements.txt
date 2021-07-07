@@ -61,7 +61,7 @@ bing_image_downloader
 search_engine_parser
 pytz
 envparse
-motor
+motor==2.1.0
 pyromod
 odmantic
 redis
