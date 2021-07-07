@@ -22,7 +22,7 @@ geopy
 nltk
 psutil
 aiofiles
-aiohttp>=2.2.5
+aiohttp>=3.6.2
 Pillow>=4.2.0
 CurrencyConverter
 #googletrans
