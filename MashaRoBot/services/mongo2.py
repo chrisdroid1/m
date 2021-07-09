@@ -8,4 +8,4 @@ if MONGO2 == None:
     MONGO2 = MONGO
 
 mongo_client = MongoClient(MONGO2)
-db = mongo_client.daisy
+db = mongo_client.masha
