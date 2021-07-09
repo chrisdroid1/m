@@ -1,4 +1,6 @@
 PyYAML>5.0
+pykeyboard
+Python_ARQ
 gogoanime-api
 aiogram
 loguru
