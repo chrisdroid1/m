@@ -69,7 +69,7 @@ if ENV:
     API_ID = os.environ.get("API_ID", None)
     API_HASH = os.environ.get("API_HASH", None)
     DB_URI = os.environ.get("DATABASE_URL")
-    MONGO_URI = os.environ.get(MONGO_URI", None)
+    MONGO_URI = os.environ.get("MONGO_URI", None)
     MONGO_PORT = os.environ.get("MONGO_PORT")
     MONGO_DB = os.environ.get("MONGO_DB")
     DONATION_LINK = os.environ.get("DONATION_LINK")
