@@ -1,4 +1,4 @@
-from MashaRoBot import db
+from MashaRoBot.services.mongo2 import db
 from typing import Dict, List, Union
 
 karmadb = db.karma
