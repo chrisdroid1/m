@@ -7,7 +7,7 @@ from MashaRoBot import telethn as tbot
 from MashaRoBot.events import register
 
 client = MongoClient()
-client = MongoClient(MONGO_DB_URI)
+client = MongoClient(MONGO_URI)
 db = client["darkuserbot"]
 approved_users = db.approve
 dbb = client["darkuserbot"]
