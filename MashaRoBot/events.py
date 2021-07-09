@@ -12,7 +12,7 @@ from MashaRoBot import MONGO_URI
 from MashaRoBot import telethn
 
 client = MongoClient()
-client = MongoClient(MONGO_DB_URI)
+client = MongoClient(MONGO_URI)
 db = client["darkuserbot"]
 gbanned = db.gban
 
