@@ -28,7 +28,7 @@ from pyrogram.errors.exceptions.forbidden_403 import \
     ChatWriteForbidden
 from pyrogram.types import Message
 
-from MashaRoBot import DRAGON,DEMON,WOLVES,TIGERS, app
+from MashaRoBot import DRAGONS,DEMONS,WOLVES,TIGERS, app
 from MashaRoBot.modules.admin import member_permissions
 
 
@@ -83,7 +83,7 @@ def adminsOnly(permission):
             userID = message.from_user.id
             permissions = await member_permissions(chatID, userID)
             if (
-                userID not in DRAGON,DEMON,WOLVES,TIGERS
+                userID not in DRAGONS,DEMONS,WOLVES,TIGERS
                 and permission not in permissions
             ):
                 return await unauthorised(
