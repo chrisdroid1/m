@@ -553,7 +553,7 @@ def left_member(update: Update, context: CallbackContext):
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "See you later in my Emcee powerhouse!",
+                    "See you later in my Secret powerhouse!",
                     reply_to_message_id=reply,
                 )
                 return
