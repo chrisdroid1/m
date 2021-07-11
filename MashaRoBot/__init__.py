@@ -68,6 +68,7 @@ if ENV:
     CERT_PATH = os.environ.get("CERT_PATH")
     API_ID = os.environ.get("API_ID", None)
     API_HASH = os.environ.get("API_HASH", None)
+    RemoveBG_API = os.environ.get("RemoveBG_API")
     DB_URI = os.environ.get("DATABASE_URL")
     MONGO_URI = os.environ.get("MONGO_URI", None)
     MONGO_PORT = os.environ.get("MONGO_PORT")
@@ -157,6 +158,7 @@ else:
     BOT_ID = Config.BOT_ID
     DONATION_LINK = Config.DONATION_LINK
     LOAD = Config.LOAD
+    RemoveBG_API = Config.RemoveBG_API
     NO_LOAD = Config.NO_LOAD
     DEL_CMDS = Config.DEL_CMDS
     STRICT_GBAN = Config.STRICT_GBAN
