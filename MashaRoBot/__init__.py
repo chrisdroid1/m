@@ -69,6 +69,7 @@ if ENV:
     API_ID = os.environ.get("API_ID", None)
     API_HASH = os.environ.get("API_HASH", None)
     RemoveBG_API = os.environ.get("RemoveBG_API")
+    REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY")
     DB_URI = os.environ.get("DATABASE_URL")
     MONGO_URI = os.environ.get("MONGO_URI", None)
     MONGO_PORT = os.environ.get("MONGO_PORT")
@@ -173,6 +174,7 @@ else:
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
     INFOPIC = Config.INFOPIC
+    REM_BG_API_KEY = Config.REM_BG_API_KEY
     REDIS_URL = Config.REDIS_URL
     IBM_WATSON_CRED_URL = Config.IBM_WATSON_CRED_URL
     IBM_WATSON_CRED_PASSWORD = Config.IBM_WATSON_CRED_PASSWORD
