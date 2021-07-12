@@ -74,8 +74,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello My name is` *Kaela*
-`I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
+Hello I'm KAELA ,
+༒︎ I AM A TALENTED BOT WITH ALOT OF FEATURES[.](https://telegra.ph/file/465fc5e82a6cc0105282b.jpg)
+➪ ADD ME TO YOUR GROUP AND MAKE ME ADMIN TO MANAGE YOUR GROUP.
+➪ CONTACT MY [CREATOR](t.me/Mrkahno) FOR ANY QUERY AND [APPEAL](https://t.me/Kaelagrpsupport) HERE.
+➪ POWERED BY [KAELA](t.me/Kaelasupport)
 """
 
 buttons = [
@@ -93,15 +96,6 @@ buttons = [
         InlineKeyboardButton(
             text="👥 SUPPORT", url="https://t.me/kaelagrpsupport"
         ),
-    ],
-    [  
-        InlineKeyboardButton(
-            text="🎧𝐕𝐜 𝐏𝐥𝐚𝐲𝐞𝐫🎧", url="https://telegra.ph/Chris-06-28"),
-        InlineKeyboardButton(
-            text="Fun group", url="https://t.me/FunTanttr"
-        ),
-    ],
-]
 
 
 HELP_STRINGS = """
