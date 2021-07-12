@@ -87,14 +87,14 @@ buttons = [
             text="➕️ ADD KAELA TO YOUR GROUP ➕️", url="t.me/kaelagrpbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="🕹 ABOUT 🕹", callback_data="masha_"),
+        InlineKeyboardButton(text="📞 COMMANDS 📞", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", callback_data="source_"),
+            text="⌛️ SOURCE ⏳", callback_data="source_"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/kaelagrpsupport"
+            text="👥 SUPPORT 👥", url="https://t.me/kaelagrpsupport"
         ),
         ],
   ]
