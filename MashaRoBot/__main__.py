@@ -96,7 +96,8 @@ buttons = [
         InlineKeyboardButton(
             text="👥 SUPPORT", url="https://t.me/kaelagrpsupport"
         ),
-
+        ],
+  ]
 
 HELP_STRINGS = """
 ༆*LOVELY comes with many special features in it*༆
