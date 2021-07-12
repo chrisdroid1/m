@@ -99,8 +99,12 @@ buttons = [
 
 
 HELP_STRINGS = """
-*『HELP BUTTONS HERE』*
+༆*LOVELY comes with many special features in it*༆
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF LOVELY*꧂
+𖣘 *All commands can either be used with* `/` *or* `!`.
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @LOVELYSUPPORTS* [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg)
 """
+
 
 
 DONATE_STRING = """No need.. I'm rich"""
