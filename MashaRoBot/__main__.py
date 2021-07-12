@@ -92,7 +92,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="⌛️ SOURCE ⏳", callback_data="source_"),
+            text="🎧VC PLAYER🎧", callback_data="source_"),
         InlineKeyboardButton(
             text="👥 SUPPORT 👥", url="https://t.me/kaelagrpsupport"
         ),
@@ -387,10 +387,56 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *KAELA*
-                 \nHere is the [Source Code](https://t.me/kaelasupport) .""",
+            text=""" Vc player in KAELA
+
+Note: To make sure the bot brings out the current result, put the musician name. For instance,
+Play Rush by Bella Shmurda
+
+1) Add bot to group, make it an admin
+
+a) /play <song name> - play song you requested
+
+b) /dplay <song name> - play song you requested via deezer
+
+c) /splay <song name> - play song you requested via jio saavn
+
+d) /playlist - Show now playing list
+
+e) /current - Show now playing
+
+f) /song <song name> - download songs you want quickly
+
+g) /search <query> - search videos on youtube with details
+
+h) /deezer <song name> - download songs you want quickly via deezer
+
+I) /saavn <song name> - download songs you want quickly via saavn
+
+j) /video <song name> - download videos you want quickly
+
+=>> Admins only
+
+a) /player - open music player settings panel
+
+b) /pause - pause song play
+
+c) /resume - resume song play
+
+d) /skip - play next song
+
+e( /end - stop music play
+
+f) /userbotjoin - invite assistant to your chat or add manually @KaelaVC
+
+g) /admincache - Refresh admin list
+
+Add assistant manually @KaelaVC or send /userbotjoin in your group
+
+
+NOTE: To make sure the bot brings out the current result, put the musician name. For instance,
+Play Rush by Bella Shmurda .""",
             parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=False,
+            
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
