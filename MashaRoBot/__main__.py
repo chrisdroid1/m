@@ -100,10 +100,9 @@ buttons = [
   ]
 
 HELP_STRINGS = """
-༆*LOVELY comes with many special features in it*༆
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF LOVELY*꧂
-𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @LOVELYSUPPORTS* [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg)
+༆*KAELA comes with many special features in it*༆
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF KAELA*
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Kaelagrpsupport* [.](https://telegra.ph/file/465fc5e82a6cc0105282b.jpg)
 """
 
 
