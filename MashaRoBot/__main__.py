@@ -90,6 +90,10 @@ buttons = [
         InlineKeyboardButton(text="🕹 ABOUT 🕹", callback_data="masha_"),
         InlineKeyboardButton(text="📞 COMMANDS 📞", callback_data="help_back"),
     ],
+    [ 
+        InlineKeyboardButton(
+            text="ANIME GROUP", url="https://t.me/TheHellraisedColiseum"),
+    ],
     [
         InlineKeyboardButton(
             text="🎧VC PLAYER🎧", callback_data="source_"),
