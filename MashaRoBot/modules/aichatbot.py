@@ -1,7 +1,7 @@
 import aiohttp
 import asyncio
 import re
-from config import bot_token, owner_id, bot_id
+from MashaRoBot import bot_token, owner_id, bot_id
 from pyrogram import Client, filters
 
 
