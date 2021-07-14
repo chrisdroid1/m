@@ -1,13 +1,16 @@
 import aiohttp
 import asyncio
 import re
-from MashaRoBot import bot_token, owner_id, bot_id
+from MashaRoBot import TOKEN, OWNER_ID, BOT_ID
+TOKEN=bot_token
+OWNER_ID=owner_id
+BOT_ID=bot_id
 from pyrogram import Client, filters
 
 
 luna = Client(
     ":memory:",
-    bot_token=bot_token,
+    TOKEN=bot_token,
     api_id=6,
     api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e",
 )
