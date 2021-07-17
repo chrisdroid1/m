@@ -72,8 +72,6 @@ if ENV:
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY")
     DB_URI = os.environ.get("DATABASE_URL")
     MONGO_URI = os.environ.get("MONGO_URI", None)
-    MONGO_PORT = os.environ.get("MONGO_PORT")
-    MONGO_DB = os.environ.get("MONGO_DB")
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     DONATION_LINK = os.environ.get("DONATION_LINK")
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
@@ -157,8 +155,6 @@ else:
     LANGUAGE = Config.LANGUAGE
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
     MONGO_URI = Config.MONGO_URI
-    MONGO_PORT = Config.MONGO_PORT
-    MONGO_DB = Config.MONGO_DB
     HEROKU_API_KEY = Config.HEROKU_API_KEY
     HEROKU_APP_NAME = Config.HEROKU_APP_NAME
     TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
