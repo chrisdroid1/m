@@ -99,16 +99,4 @@ async def main():
     session = ClientSession()
     arq = ARQ(ARQ_API_BASE_URL, ARQ_API_KEY, session)
 
-    await luna.start()
-    print(
-        """
------------------
-| Luna Started! |
------------------
-"""
-    )
-    await idle()
-
-
-loop = get_event_loop()
-loop.run_until_complete(main())
+    
