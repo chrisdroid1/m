@@ -147,11 +147,14 @@ else:
     EVENT_LOGS = Config.EVENT_LOGS
     WEBHOOK = Config.WEBHOOK
     URL = Config.URL
+    ARQ_API_BASE_URL = Config.ARQ_API_BASE_URL
     PORT = Config.PORT
     CERT_PATH = Config.CERT_PATH
     API_ID = Config.API_ID
     API_HASH = Config.API_HASH
-
+    bot_token = Config.bot_token
+    ARQ_API_KEY = Config.ARQ_API_KEY
+    LANGUAGE = Config.LANGUAGE
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
     MONGO_URI = Config.MONGO_URI
     MONGO_PORT = Config.MONGO_PORT
