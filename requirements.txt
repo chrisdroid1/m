@@ -1,6 +1,7 @@
 PyYAML>5.0
 pykeyboard
 Python_ARQ
+googletrans
 gogoanime-api
 aiogram
 loguru
