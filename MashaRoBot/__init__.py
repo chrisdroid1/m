@@ -158,6 +158,7 @@ else:
     OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
     VIRUS_API_KEY = Config.VIRUS_API_KEY
     BOT_ID = Config.BOT_ID
+    BOT_USERNAME = Config.BOT_USERNAME
     DONATION_LINK = Config.DONATION_LINK
     LOAD = Config.LOAD
     RemoveBG_API = Config.RemoveBG_API
