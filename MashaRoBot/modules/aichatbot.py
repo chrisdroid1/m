@@ -6,7 +6,7 @@ import re
 from MashaRoBot import pbot as LYCIA
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import Client, filters
-from googletrans import google_translator
+from googletrans import Translator as google_translator
 url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 
 translator = google_translator()
