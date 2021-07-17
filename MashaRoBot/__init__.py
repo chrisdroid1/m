@@ -98,6 +98,10 @@ if ENV:
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
     IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
     IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", None)
+    bot_token = os.environ.get("bot_token")
+    ARQ_API_BASE_URL = os.environ.get("ARQ_API_BASE_URL")
+    ARQ_API_KEY = os.environ.get("ARQ_API_KEY")
+    LANGUAGE = os.environ.get("LANGUAGE")
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
