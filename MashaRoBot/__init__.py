@@ -74,6 +74,7 @@ if ENV:
     MONGO_URI = os.environ.get("MONGO_URI", None)
     MONGO_PORT = os.environ.get("MONGO_PORT")
     MONGO_DB = os.environ.get("MONGO_DB")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME")
     DONATION_LINK = os.environ.get("DONATION_LINK")
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
