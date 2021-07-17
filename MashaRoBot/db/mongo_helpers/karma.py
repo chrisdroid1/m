@@ -1,4 +1,4 @@
-from MashaRoBot.services.mongo2 import db
+from MashaRoBot.services.mongo import db
 
 karmadb = db.karma2
 
