@@ -5,7 +5,7 @@ from aiohttp import ClientSession
 from pyrogram import Client, filters, idle
 from Python_ARQ import ARQ
 
-from MashaRoBot.config import ARQ_API_BASE_URL, ARQ_API_KEY, LANGUAGE, bot_token
+from MashaRoBot import ARQ_API_BASE_URL, ARQ_API_KEY, LANGUAGE, bot_token
 
 luna = Client(
     ":memory:",
