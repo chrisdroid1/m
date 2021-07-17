@@ -2,7 +2,7 @@ from MashaRoBot.services.mongo import mongodb as db_x
 from typing import Dict, List, Union
 
 
-coupledb = db_x.couple
+coupledb = db_x["CAHTBOT"]
 
 
 # Couple Chooser
