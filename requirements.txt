@@ -74,6 +74,7 @@ NumPy
 opencv-python-headless
 pymongo[srv]
 
+#profanity (Credits to Julia)
 better_profanity
-emoji
-nude
+textblob 
+nudepy
