@@ -77,4 +77,3 @@ pymongo[srv]
 better_profanity
 emoji
 nude
-requests
