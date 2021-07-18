@@ -29,7 +29,7 @@ from MashaRoBot import BOT_ID
 from MashaRoBot.conf import get_int_key, get_str_key
 
 # from YoneRobot.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
-from MashaRoBot.pyrogramee.telethonbasics import is_admin
+from MashaRoBot.function.telethonbasics import is_admin
 from MashaRoBot.events import register
 from MashaRoBot import MONGO_URI 
 from pymongo import MongoClient
