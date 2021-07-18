@@ -73,3 +73,7 @@ glitch_this
 NumPy
 opencv-python-headless
 pymongo[srv]
+
+better_profanity
+emoji
+nude
