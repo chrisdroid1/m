@@ -3,11 +3,10 @@ import time
 from datetime import datetime
 from io import BytesIO
 from MashaRoBot import MONGO_URI 
-
+from MashaRoBot.conf import get_int_key, get_str_key
 from pymongo import MongoClient
 MONGO_URI = get_str_key("MONGO_URI")
 
-from MashaRoBot.conf import get_int_key, get_str_key
 client = MongoClient()
 
 client = MongoClient(MONGO_URI)
