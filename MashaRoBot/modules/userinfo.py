@@ -3,6 +3,17 @@ import re
 import os
 import requests
 from MashaRoBot.conf import get_int_key, get_str_key
+from MashaRoBot import MONGO_URI 
+
+from pymongo import MongoClient
+MONGO_URI = get_str_key("MONGO_URI")
+
+
+client = MongoClient()
+
+client = MongoClient(MONGO_URI)
+
+db = client["grps"]
 
 from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.types import ChannelParticipantsAdmins
