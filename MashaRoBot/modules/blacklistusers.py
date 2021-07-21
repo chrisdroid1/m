@@ -20,20 +20,9 @@ from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
-from MashaRoBot import MONGO_URI 
-from MashaRoBot.conf import get_int_key, get_str_key
-from pymongo import MongoClient
-
-MONGO_URI = get_str_key("MONGO_URI")
-
-client = MongoClient()
-client = MongoClient(MONGO_URI)
-db = client["bl"]
-
 
 BLACKLISTWHITELIST = [OWNER_ID] + DEV_USERS + DRAGONS + WOLVES + DEMONS
 BLABLEUSERS = [OWNER_ID] + DEV_USERS
-
 
 @run_async
 @dev_plus
