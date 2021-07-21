@@ -2,6 +2,7 @@ import re, ast
 from io import BytesIO
 import random
 from typing import Optional
+
 import MashaRoBot.modules.sql.notes_sql as sql
 from MashaRoBot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
 from MashaRoBot.modules.disable import DisableAbleCommandHandler
@@ -541,7 +542,7 @@ A button can be added to a note by using standard markdown link syntax - the lin
 
 """
 
-__mod_name__ = "NOTES"
+__mod_name__ = "Nᴏᴛᴇs📝"
 
 GET_HANDLER = CommandHandler("get", cmd_get)
 HASH_GET_HANDLER = MessageHandler(Filters.regex(r"^#[^\s]+"), hash_get)
