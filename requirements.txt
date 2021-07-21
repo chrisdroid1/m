@@ -1,6 +1,5 @@
 PyYAML>5.0
 pykeyboard
-babel
 Python_ARQ
 googletrans
 gogoanime-api
