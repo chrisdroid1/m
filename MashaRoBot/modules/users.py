@@ -1,5 +1,15 @@
 from io import BytesIO
 from time import sleep
+from MashaRoBot.conf import get_int_key, get_str_key
+from MashaRoBot import MONGO_URI 
+
+from pymongo import MongoClient
+
+client = MongoClient()
+
+client = MongoClient(MONGO_URI)
+
+db = client["chatsusers"]
 
 from telegram import TelegramError, Update
 from telegram.error import BadRequest, Unauthorized
