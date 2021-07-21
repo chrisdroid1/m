@@ -1,5 +1,5 @@
 from typing import Optional
-
+from MashaRoBot.conf import get_int_key, get_str_key
 import MashaRoBot.modules.sql.rules_sql as sql
 from MashaRoBot import dispatcher
 from MashaRoBot.modules.helper_funcs.chat_status import user_admin
