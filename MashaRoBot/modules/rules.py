@@ -15,6 +15,16 @@ from telegram import (
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
+from MashaRoBot import MONGO_URI 
+
+from pymongo import MongoClient
+MONGO_URI = get_str_key("MONGO_URI")
+
+client = MongoClient()
+
+client = MongoClient(MONGO_URI)
+
+db = client["rules"]
 
 
 @run_async
