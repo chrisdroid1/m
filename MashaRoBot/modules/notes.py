@@ -3,6 +3,16 @@ from io import BytesIO
 import random
 from typing import Optional
 
+from MashaRoBot import MONGO_URI 
+
+from pymongo import MongoClient
+
+client = MongoClient()
+
+client = MongoClient(MONGO_URI)
+
+db = client["notes"]
+
 import MashaRoBot.modules.sql.notes_sql as sql
 from MashaRoBot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
 from MashaRoBot.modules.disable import DisableAbleCommandHandler
