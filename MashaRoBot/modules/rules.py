@@ -1,5 +1,4 @@
 from typing import Optional
-from MashaRoBot.conf import get_int_key, get_str_key
 import MashaRoBot.modules.sql.rules_sql as sql
 from MashaRoBot import dispatcher
 from MashaRoBot.modules.helper_funcs.chat_status import user_admin
@@ -15,15 +14,6 @@ from telegram import (
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
-from MashaRoBot import MONGO_URI 
-from pymongo import MongoClient
-MONGO_URI = get_str_key("MONGO_URI")
-
-client = MongoClient()
-client = MongoClient(MONGO_URI)
-db = client["rules"]
-
-
 
 @run_async
 def get_rules(update: Update, context: CallbackContext):
