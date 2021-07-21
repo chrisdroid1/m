@@ -4,6 +4,8 @@ from MashaRoBot.conf import get_int_key, get_str_key
 from MashaRoBot import MONGO_URI 
 
 from pymongo import MongoClient
+MONGO_URI = get_str_key("MONGO_URI")
+
 
 client = MongoClient()
 
