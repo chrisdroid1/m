@@ -2,7 +2,7 @@ import re, ast
 from io import BytesIO
 import random
 from typing import Optional
-
+from MashaRoBot.conf import get_int_key, get_str_key
 from MashaRoBot import MONGO_URI 
 
 from pymongo import MongoClient
