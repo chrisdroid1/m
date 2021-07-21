@@ -2,6 +2,15 @@ import html
 import time
 from datetime import datetime
 from io import BytesIO
+from MashaRoBot import MONGO_URI 
+
+from pymongo import MongoClient
+
+client = MongoClient()
+
+client = MongoClient(MONGO_URI)
+
+db = client["gban"]
 
 from telegram import ParseMode, Update
 from telegram.error import BadRequest, TelegramError, Unauthorized
