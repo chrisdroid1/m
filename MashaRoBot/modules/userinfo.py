@@ -2,6 +2,7 @@ import html
 import re
 import os
 import requests
+from MashaRoBot.conf import get_int_key, get_str_key
 
 from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.types import ChannelParticipantsAdmins
