@@ -20,6 +20,15 @@ from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
+from MashaRoBot import MONGO_URI 
+
+from pymongo import MongoClient
+
+client = MongoClient()
+
+client = MongoClient(MONGO_URI)
+
+db = client["bl"]
 
 BLACKLISTWHITELIST = [OWNER_ID] + DEV_USERS + DRAGONS + WOLVES + DEMONS
 BLABLEUSERS = [OWNER_ID] + DEV_USERS
