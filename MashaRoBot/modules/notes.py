@@ -6,6 +6,7 @@ from typing import Optional
 from MashaRoBot import MONGO_URI 
 
 from pymongo import MongoClient
+MONGO_URI = get_str_key("MONGO_URI")
 
 client = MongoClient()
 
