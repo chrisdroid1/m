@@ -1,4 +1,5 @@
 from typing import Optional
+
 import MashaRoBot.modules.sql.rules_sql as sql
 from MashaRoBot import dispatcher
 from MashaRoBot.modules.helper_funcs.chat_status import user_admin
@@ -14,6 +15,7 @@ from telegram import (
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
+
 
 @run_async
 def get_rules(update: Update, context: CallbackContext):
@@ -123,7 +125,7 @@ __help__ = """
  ❍ /clearrules*:* clear the rules for this chat.
 """
 
-__mod_name__ = "RULES"
+__mod_name__ = "Rᴜʟᴇs👻"
 
 GET_RULES_HANDLER = CommandHandler("rules", get_rules, filters=Filters.group)
 SET_RULES_HANDLER = CommandHandler("setrules", set_rules, filters=Filters.group)
