@@ -2,17 +2,6 @@ import re, ast
 from io import BytesIO
 import random
 from typing import Optional
-from MashaRoBot.conf import get_int_key, get_str_key
-from MashaRoBot import MONGO_URI 
-from pymongo import MongoClient
-
-MONGO_URI = get_str_key("MONGO_URI")
-
-client = MongoClient()
-client = MongoClient(MONGO_URI)
-db = client["notes"]
-
-
 import MashaRoBot.modules.sql.notes_sql as sql
 from MashaRoBot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
 from MashaRoBot.modules.disable import DisableAbleCommandHandler
